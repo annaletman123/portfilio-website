@@ -1,0 +1,203 @@
+   /*
+        CSS RESET STYLES IN BROWSER
+        */
+        *{
+            margin:0;
+            padding:0;
+        }
+
+body{
+            
+            font-family: 'Arial', sans-serif;
+            background-color:#FF8DE9;
+            text-align: center;
+        }
+.portfolio img {width: 100%;}
+
+.container {
+  position: sticky;
+  width: 100%;
+}
+
+
+
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0093FF;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .2s ease;
+}
+
+.container:hover .overlay {
+  transform: scale(1);
+}
+.text {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1{
+            color:#FFFFFF;
+            font-size: 50px;
+           font-family: "arial";
+
+      }
+
+#nav img {
+    float: left;
+}
+
+header h1 {
+    font-style: italic;
+    font-size: 2.827em;
+    margin-top: 0.1em;
+    color: #000;
+}
+        
+        h2{
+            color:#ffffff;
+            font-size: 50px;
+            font-family: "arial";
+                padding: 30px;
+    
+    }
+
+#portfolio h2{
+    color:#fff;
+}   font-size:2em;
+
+
+#aboutme h2{
+    color:#fff;
+}
+
+h2{ padding: 0px; }
+       
+#nav{
+    width:100%;
+    font-family: 'Arial', sans-serif;
+    font-weight:900;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+#nav ul{
+    text-align: center;
+    padding-left: 0px;
+}
+
+#nav ul li{
+            
+            text-align: center;
+            display: inline-block;
+            padding: 0;
+        }
+        
+#nav a{
+            
+            color:#fff;
+            text-decoration: none;
+            background: #000;
+        }
+
+#nav a:hover {
+    color:#FF8DE9;
+    text-decoration: none;
+}
+        
+        }
+/* ------ MAIN STYLING ------ */
+
+body{
+        margin: auto;
+    
+}
+    
+h1, h3 {
+    font-weight:normal; 
+    color: #ffffff    ;
+    text-align: center;
+}
+
+p, li, blocknote {
+        margin-bottom: 1.5em;
+        line-height: 1.4em;
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 1em;
+}
+
+
+h2  {
+    font-style: italic;
+    font-size: 2.827em;
+    color: #000;
+}  
+  
+
+#blockquote {
+    hanging-punctuation: first;
+    text-indent: -0.5em;
+}
+
+header {background-color: white;  padding: 20px;}
+
+
+
+.intro {
+    font-size: 1.4em;
+    color: #fff;    }
+
+.me {padding-left: 100px; padding-right: 100px;}
+
+     
+        /* ------ MY PORTFOLIO------ */
+.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+     
+        /* ------ CONTACT ME------ */
+#contactme {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 40px;
+padding: 20px;
+font-style:italic;
+}      
+
+   /*------ TYPOGRAAPHY------*/
+blockquote {
+    font-size: 1.75em;
+    line-height: 1.3em;
+    color: #000;
+    hanging-punctuation: first;
+    text-indent: -1em;
+}
+
+
+
+/* END OF NAVIGATION */      
+        
